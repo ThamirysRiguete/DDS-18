@@ -1,0 +1,26 @@
+#bodao{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex;
+    padding-bottom: 10rem;
+    justify-content: center;
+    background-color: rgb(199, 199, 199);
+    color: #fff;
+    height: 10%;
+}
+
+.vermelho{
+    background-color: red;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+.verde{
+    background-color: green;
+    width: 90%;
+}

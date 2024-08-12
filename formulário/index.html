@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+
+<body>
+<form action="submit">
+    <h1>Formulário de Endereço</h1>
+    <div>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="nome" name="nome" required>
+            </div>
+            <div>
+                <label for="endereco">Endereço:</label>
+                <input type="end" name="endereco" required>
+            </div>
+            <div>
+                <label for="cidade">Cidade:</label>
+                <input type="cid" name="cidade" required>
+            </div>
+            <div>
+                <label for="estado">Estado:</label>
+                <select name="estado" required>
+                    <option value="" disabled selected>Selecione um estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+        </fieldset>
+
+        
+
+    </div>
+    <br> <br>
+
+
+    <fieldset> 
+        <legend> Dados Profissionais</legend>
+            <div>
+                
+                    <label for="cargo">Natureza do Cargo</label>
+                    <br>
+                    <input type="radio" name="escolha" value="gerencia"> Gerência
+                    <input type="radio" name="escolha" value="financeiro"> Financeiro
+                    <input type="radio" name="escolha" value="recepcao"> Recepção
+                    <input type="radio" name="escolha" value="adiministracao"> Adiministração
+                    <input type="radio" name="escolha" value="juridico"> Juridico
+                    <br> <br>
+                    <label for="interesse">Àrea de interesse</label>
+                    <br>
+                    <input type="checkbox" name="tec1" value="comp"> Computação
+                    <input type="checkbox" name="tec2" value="bio"> Biologia
+                    <input type="checkbox" name="tec3" value="amb"> Meio Ambiente
+                    <input type="checkbox" name="tec4" value="eng"> Engenharia
+                    <input type="checkbox" name="tec5" value="his"> História
+                    <br> <br>
+                    <div>
+                        <label for="Mini">Mini-curriculo:</label>
+                        <textarea name="Mini" rows="5" required></textarea>
+                        <br> <br>
+        
+                    </div>
+            </div>
+        
+    </fieldset>
+    <br> 
+    <div>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </div>
+    </div>
+</form>
+</body>
+
+</html>

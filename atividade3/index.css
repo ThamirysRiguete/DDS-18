@@ -1,26 +1,50 @@
-#bodao{
-    width: 100vw;
-    height: 100vh;
+*{
+    margin: 0;
+    padding: 0;
 }
+
 header{
-    display: flex;
-    padding-bottom: 10rem;
-    justify-content: center;
     background-color: rgb(199, 199, 199);
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
-    height: 10%;
 }
 
 .vermelho{
+    width: 100vw;
     background-color: red;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     gap: 2rem;
 }
+
 .verde{
-    background-color: green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 90%;
+    background-color: green;
+    height: 40%;
+
 }
+
+.cinza{
+    background-color: rgb(110, 110, 110);
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25vh;
+    color: #fff;
+}
+

@@ -1,0 +1,60 @@
+body{
+    background-color:#dfcdff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+P{
+    background-color: aliceblue;
+}
+
+#nadireita{
+    text-align: right;
+}
+
+#nocentro{
+    text-align: center;
+}
+
+#justificado{
+    text-align: justify;
+}
+
+#maiúsculo{
+     text-transform: uppercase;
+}
+
+#minúsculo{
+     text-transform: lowercase;
+}
+
+#decorado{
+    text-decoration: overline underline line-through;
+}
+
+h1{
+    text-shadow: 2px 2px red;
+}
+
+#outrafonte{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger
+    ;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#googlefonte{
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    font-style: none ;
+}
+
+@font-face {
+    font-family: "bungeeTint";
+    src: url('./Matemasie-Regular.ttf');
+}
+
+#fontebaixada{
+    font-family: "Bungeetint", sans-serif;
+    text-align: justify;
+}

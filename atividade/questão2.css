@@ -1,0 +1,61 @@
+       
+        body{
+            background-color: rgb(32, 133, 192);
+        }
+
+        .background-azul-claro {
+            background-color: lightblue;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .paragrafo-verde-claro {
+            background-color: lightgreen;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        .background-imagem-repetida-fixa {
+            background-image: url('https://m.media-amazon.com/images/I/71VQK43EoAL._AC_UF1000,1000_QL80_.jpg');
+            background-repeat: repeat;
+            background-attachment: fixed;
+            height: 200px;
+            margin: 40px;
+            color:  rgb(4, 207, 4);
+            font-size: 15pt;
+        }
+
+        .background-imagem-repetida-vertical {
+            background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/12/Harry-Potter-Cnn3-e1717778532842.jpeg?w=680');
+            background-repeat: repeat-y;
+            height: 200px;
+            margin: 20px;
+            color: rgb(6, 24, 6);
+            font-size: 15pt;
+        }
+
+        .background-imagem-nao-repetida {
+            background-image: url('https://br.web.img3.acsta.net/newsv7/21/03/11/18/57/5730144.jpg');
+            background-repeat: no-repeat;
+            height: 200px;
+            margin: 20px;
+        }
+
+        .background-imagem-centralizada {
+            background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202208/0921/3XopdGAJGRy3xNQKnQDvaCRs.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px;
+            margin: 20px;
+        }
+
+        .background-amarelo-imagem {
+            background-color: yellow;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIhKDvh5NPzH9vwMUXbLvIzr4Qc6Q6rX6wZw&s');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: scroll;
+            height: 200px;
+            margin: 20px;
+            color: rgb(20, 146, 20);
+        }

@@ -1,0 +1,42 @@
+body{
+    background-color: gray;
+    height: 600px;
+}
+
+#tudo{
+    background-color: orange;
+    padding: 5px;
+    display: inline-block;
+}
+
+.quad{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 5px 10px;    
+}
+
+#quad1{
+    background-color: red;
+}
+
+#quad2{
+    background-color: yellow;
+}
+
+#quad3{
+    background-color: green;
+}
+
+#container{
+    background-color: black;
+    padding: 5px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+}

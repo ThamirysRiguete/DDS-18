@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SA 01 – LANDING PAGE SENAI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #0033A0;
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+        }
+        header a {
+            color: #FFFFFF;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .form-section {
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .form-section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-group textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        .form-group button {
+            background-color: #0033A0;
+            border: none;
+            color: #FFFFFF;
+            padding: 15px 30px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        footer {
+            background-color: #0033A0;
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #FFFFFF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Sobre Nós</a>
+        <a href="#">Cursos</a>
+        <a href="#">Infraestrutura</a>
+        <a href="#">Depoimentos</a>
+        <a href="#">Contato</a>
+    </header>
+
+    <section class="form-section">
+        <h2>Receba Mais Informações Sobre Nossos Cursos</h2>
+        <div class="form-container">
+            <form action="enviar_formulario.php" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#">Sobre Nós</a>
+        <a href="#">Cursos</a>
+        <a href="#">Infraestrutura</a>
+        <a href="#">Depoimentos</a>
+        <a href="#">Contato</a>
+        <p>© 2024 SENAI - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

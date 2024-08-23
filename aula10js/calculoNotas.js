@@ -28,7 +28,7 @@ function mostraResultados(){
         var notaPri = notasA[index]
         var notasSeg = notasB[index]
         var mediaAtual = media(notaPri, notasSeg)
-        var 
+        var final = situacao(mediaAtual)
         console.log("O aluno", alunos[index], "teve média de", mediaAtual, ",E sua situação final é:", final)
     }
 }

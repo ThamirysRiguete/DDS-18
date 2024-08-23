@@ -18,7 +18,7 @@ header a {
 .hero {
     background-image: url('caminho-para-sua-imagem.jpg');
     background-size: cover;
-    color: #FFFFFF;
+    color: #000000;
     padding: 100px 20px;
     text-align: center;
 }
@@ -37,6 +37,7 @@ header a {
     font-size: 1em;
     cursor: pointer;
     margin: 10px;
+    border-radius: 20px;
 }
 .courses {
     padding: 20px;
@@ -72,6 +73,9 @@ header a {
     font-size: 1em;
     cursor: pointer;
     margin-top: 10px;
+}
+.logo {
+    max-height: 50px;
 }
 .cta {
     background-color: #FF6600;

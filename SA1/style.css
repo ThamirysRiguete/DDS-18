@@ -74,6 +74,25 @@ header a {
     cursor: pointer;
     margin-top: 10px;
 }
+
+.course-button {
+    display: inline-block;
+    background-color: #0033A0; /* Cor de fundo do botão */
+    color: #FFFFFF; /* Cor do texto do botão */
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    text-decoration: none; /* Remove o sublinhado do link */
+    text-align: center;
+    border: none; /* Remove a borda do link se houver alguma */
+}
+.course-button:hover {
+    background-color: #002080; /* Cor de fundo quando o mouse passa sobre o botão */
+}
+
+
+
 .logo {
     max-height: 50px;
 }

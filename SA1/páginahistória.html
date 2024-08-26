@@ -13,10 +13,11 @@
             background-color: #f4f4f4;
         }
         header {
-            background-color: #004a77;
+            background-color: #0033A0;
             color: white;
             padding: 20px;
             text-align: center;
+            position: relative;
         }
         .container {
             width: 80%;
@@ -26,7 +27,11 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
         }
-        h1, h2 {
+        h1 {
+            color: #ffffff;
+            margin: 0;
+        }
+        h2 {
             color: #004a77;
         }
         p {
@@ -37,12 +42,29 @@
             height: auto;
             margin-top: 20px;
         }
+        .logout-button {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        .logout-button:hover {
+            background-color: #e60000;
+        }
     </style>
 </head>
 <body>
 
     <header>
         <h1>História do SENAI</h1>
+        <a href="index.html" class="logout-button">Sair</a>
     </header>
 
     <div class="container">
@@ -55,8 +77,8 @@
         <h2>Vídeo Institucional</h2>
         <p>Assista ao vídeo institucional abaixo para entender melhor o impacto e a importância do SENAI ao longo dos anos.</p>
         <video controls>
-            <source src="https://youtu.be/1hbzT3T1Vcs?si=FyvICTuWYnl-d_AI">
-            
+            <source src="https://youtu.be/1hbzT3T1Vcs?si=FyvICTuWYnl-d_AI" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
         </video>
     </div>
 

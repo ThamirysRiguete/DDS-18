@@ -15,9 +15,13 @@
             </span>
         <h1>LOGIN</h1>
         <form>
-            <input type="text" placeholder="Usuário" id="inputUsuario" class="inputForm">
-            <input type="password" placeholder="Senha" id="inputSenha" class="inputForm">
-            <input type="submit" value="Entrar" id="inputEntrar" class="inputBotao"  onclick="logar()">
+            <input type="text" placeholder="Usuário" id="inputUsuarioNovo" class="inputForm">
+            <input type="email" placeholder="email" id="inputEmailNovo" class="inputForm">
+            <input type="password" placeholder="Senha" id="inputSenhaNovo" class="inputForm">
+            <input type="password" placeholder="Confirme Senha" id="inputSenhaConfirme" class="inputForm">
+            <input type="submit" value="Cadastrar" id="inputCadastrar" class="inputBotao" ondblclick="Cadastrar()"
+
+            id="inputEntrar" class="inputBotao"  onclick="logar()">
         </form>    
         <p>Não possui conta? <a href="cadastro.html">Cadastre-se</a> </p>
     </div>
